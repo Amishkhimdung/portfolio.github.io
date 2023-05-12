@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Delicious+Handrawn&family=Patua+One&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="home">
+    <header class="hero">
+        <nav class="navbar">
+            <h1 class="logo">
+                <a href="#home"><img src="img/me.png" alt=""></a>
+            </h1>
+            <div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#hobby" class="nav-link">Hobbies</a></li>
+                    <li class="nav-item"><a href="#socials" class="nav-link">Socials</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="quote">
+            <h1>“Once you <span> give up,</span> it's all <span>over.</span> So you gotta do what <span> you can.</span>
+                Don't get your <span>hopes up.</span>”</h1>
+            <h2>- Rimuru <span>Tempest</span></h2>
+            <img src="img/rimuru.GIF" alt="" class="slime">
+            <div class="buttons">
+                <a href="#portfolio"><button class="know_me"> Know me more!</button></a>
+            </div>
+        </div>
+
+        <div class="video">
+            <video src="img/task.mp4" loop autoplay muted></video>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/amish.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span> </h1>
+                    <p class="text">I am an energetic, hardworking and disciplined student of Herald College Kathmandu.
+                        I am currently studying BIT(Hons) and have keen interest in computer since my childhood, so I
+                        took it as my career. Away from the studies, I love spending my time playing games or
+                        travelling. I am both indoor and outdoor person, can be considered, an "Ambivert". </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('details')">Details</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="details">
+                        <ul>
+                            <li><span>Date of Birth:</span> 2003/8/12</li>
+                            <li><span>Gender: </span> Male</li>
+                            <li><span>Nationality:</span> Nepali</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="skills">
+                        <ul>
+                            <li><span>HTML: </span> Expert</li>
+                            <li><span>CSS:</span> Expert</li>
+                            <li><span>JS:</span> Intermediate</li>
+                            <li><span>WordPress: </span> Expert</li>
+                            <li><span>Leadership: </span> Expert</li>
+                            <li><span>Communication: </span> Expert</li>
+                            <li><span>Drawing:</span> Expert</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>Nepali:</span> Native Speaker</li>
+                            <li><span>English: </span> Fluent</li>
+                            <li><span>Hindi: </span> Fluent</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h1 class="project_header">My <span>Projects</span></h1>
+        <div class="container">
+            <div class="card">
+                <div class="face front">
+                    <div class="content">
+                        <img src="./img/corgi.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="face back">
+                    <div class="content">
+                        <p>
+                            A cozy place for coffee. Just a templete for a website to take your coffee orders. Dogs
+                            joining
+                            you for a cup of coffee while enjoying some fried rice.
+                        </p>
+                        <button><a href="https://amishkhimdung.github.io/coffee.github.io/">visit site</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <div class="content">
+                        <img src="./img/calculator.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="face back">
+                    <div class="content">
+                        <p>
+                            A spotify themed fully functional calculator. Basic calculation are done in jiffy. Must try
+                            out.
+                        </p>
+                        <button><a href="https://amishkhimdung.github.io/amishcalculator.github.io/">visit
+                                site</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <div class="content">
+                        <img src="./img/first.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="face back">
+                    <div class="content">
+                        <p>
+                            This is the first ever portfolio website I have ever created. It has few errors and need to
+                            be maintained as well as give designs.
+                        </p>
+                        <button><a href="https://amishkhimdung.github.io/amishkhimdungrai.github.io/">visit
+                                site</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <div class="content">
+                        <img src="./img/weather.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="face back">
+                    <div class="content">
+                        <p>
+                            A gradient colorful website for searching you current weather situation as well as other
+                            locations over the world. Get you weather information now!
+                        </p>
+                        <button><a href="https://amishkhimdung.github.io/weatherboy.github.io/">visit site</a></button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- start -->
+    <section id="hobby">
+        <h1 class="hobby_header">My <span>Hobbies.</span></h1>
+        <div class="container">
+            <div class="cardbox">
+                <h2>Games</h2>
+                <p>Gaming on saturday till late night gives different vibes.</p>
+                <span>valorant</span>
+                <div class="pic"></div>
+                <button></button>
+            </div>
+            <div class="cardbox card2">
+                <h2>Music</h2>
+                <p>Why not let yourself dive into the dimension of music.</p>
+                <span>spotify</span>
+                <div class="pic"></div>
+                <button></button>
+            </div>
+
+            <div class="cardbox card3">
+                <h2>Travel</h2>
+                <p>Traveling sure does heal your mental and spiritual health.</p>
+                <span>japan</span>
+                <div class="pic"></div>
+                <button></button>
+            </div>
+            <div class="cardbox card4">
+                <h2>Books</h2>
+                <p>Reading books surely makes you wise.</p>
+                <span>the alchemist</span>
+                <div class="pic"></div>
+                <button></button>
+            </div>
+        </div>
+    </section>
+    <!-- end -->
+    <div class="socials" id="socials">
+        <h3>website created by <span> amish khimdung rai (yuugen)</span> © <span> portfolio </span>2023 </h3>
+        <div class="contact">
+            <div class="details">
+                <h4><span>email:</span> somhang131@gmail.com</h4>
+            </div>
+            <div class="media">
+                <a href="https://www.instagram.com/kaede.yuugen_rai/"><i class="fa-brands fa-instagram "></i></a>
+                <a href="https://www.tiktok.com/@kaede.yuugen"><i class="fa-brands fa-tiktok "></i></a>
+                <a href="https://github.com/Amishkhimdung"><i class="fa-brands fa-github "></i></a>
+            </div>
+        </div>
+        <a href="./img/cv.pdf" download class="cv">Download CV</a>
+    </div>
+</body>
+
+</html>
